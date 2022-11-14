@@ -1,0 +1,57 @@
+#qz{
+    width: 700px;
+    position: relative;
+    max-width: 800px;
+    max-height: 800px;
+    top: 155px;
+    left: 200px;
+    z-index: 100;
+    /* animation-name: ani;
+    animation-duration: 3s;  */
+}
+/* @keyframes ani{
+    0%{left: 200px;}
+    100%{left: 900px;}
+}  */
+#uno{
+position: absolute;
+top: 300px;
+left: 400px;
+}
+#dos{
+position: absolute;
+top: 300px;
+left: 1100px;
+}   
+.user{
+margin-left: 20px;
+} 
+.nick{
+margin-left: 40px;
+} 
+.fot{
+margin-left: 41px;
+} 
+.corr{
+margin-left: 27px;
+}    
+
+@media (max-width: 600px) {
+    #qz{
+        width: 100%;
+        position: relative;
+        top: 20%;
+        z-index: 100;
+        /* animation-name: ani;
+        animation-duration: 3s;  */
+    }
+    #uno{
+        position: absolute;
+        }
+        #dos{
+        position: absolute;
+        top: 300px;
+
+        } 
+
+}

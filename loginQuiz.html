@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="estilo/stilos.css">
+    <title>QuizGame</title>
+</head>
+
+<body>
+    <img id="qz" src="img/quiz.jpg" alt="quiz">
+    <form id="uno" name="fotoP" action="loginQuiz.php" method="post" enctype="multipart/form-data">
+        <h2>Registro</h2>
+        <div>Usuario: <input class="user" type="text" name="userNombre" minlength="2" maxlength="30"><br><br></div>
+        <div>Contraseña: <input type="password" name="password" minlength="4" maxlength="20"><br><br></div>
+        <div>Contraseña: <input type="password" name="password2" minlength="4" maxlength="20"><br><br></div>
+        <div>Nick: <input class="nick" type="text" name="userNick" minlength="2" maxlength="20"><br><br></div>
+        <!-- Falta subir foto de perfil -->
+        <div>Foto: <input class="fot" type="file" name="fotoPerfil"><br><br></div>
+        <div>Correo: <input class="corr" type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br><br></div>
+        <input type="submit" value="Confirmar Registro" name="Confirmar">
+        <input id="loginn" type="button" value="login" name="Logearme">
+    </form>
+    <form id="dos" action="loginQuiz.php" method="post">
+        <h2>Login</h2>
+        <div>Usuario: <input class="user" type="text" name="username" minlength="2" maxlength="30"><br><br></div>
+        <div>Contraseña: <input type="password" name="password" minlength="4" maxlength="20"><br><br></div>
+        <input type="submit" value="Confirmar Login" name="log">
+        <input id="registro" type="button" value="Registrar" name="Registrar">
+    </form>
+    <script>
+        document.getElementById('registro').addEventListener('click', function() {
+            document.getElementById("qz").animate(
+                [{
+                    transform: 'rotate(0) translate3D(-650px, 0, 0)'
+                }, {
+                    transform: 'rotate(0) translate3D(0, 0, 0)'
+                }], {
+                    duration: 2000
+                }
+            );
+            qz.style.left = 950 + "px";
+        });
+        document.getElementById('loginn').addEventListener('click', function() {
+            document.getElementById("qz").animate(
+                [{
+                    transform: 'rotate(0) translate3D(650px, 0, 0)'
+                }, {
+                    transform: 'rotate(0) translate3D(0, 0, 0)'
+                }], {
+                    duration: 2000
+                }
+            );
+            qz.style.left = 200 + "px";
+        });
+    </script>
+</body>
+
+</html>
