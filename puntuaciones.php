@@ -44,7 +44,7 @@
 ?>
                     <tr>
                         <th scope="row" class="text-white">3</th>
-                        <td class="text-white"> <img src="img/perfil/<?php echo $arr['foto'];?>.jpg" alt="<?php echo $arr['foto'];?>" class="rounded float-end" style="width: 5vw;"> </td>
+                        <td class="text-white"> <img src="img/perfil/<?php echo $arr['foto'];?>" alt="<?php echo $arr['foto'];?>" class="rounded float-end" style="width: 5vw;"> </td>
                         <td class="text-white"> <?php echo $arr['nick'] ?> </td>
                         <td class="text-white"><?php echo $arr['puntuacion'] ?></td>
                     </tr>
@@ -53,7 +53,7 @@
 ?>
                     <tr>
                         <th scope="row" class="text-white">4</th>
-                        <td class="text-white"> <img src="img/perfil/<?php echo $arr['foto'];?>.jpg" alt="fotoPerfil" class="rounded float-end" style="width: 5vw;"> </td>
+                        <td class="text-white"> <img src="img/perfil/<?php echo $arr['foto'];?>" alt="fotoPerfil" class="rounded float-end" style="width: 5vw;"> </td>
                         <td class="text-white"> <?php echo $arr['nick'] ?> </td>
                         <td class="text-white"><?php echo $arr['puntuacion'] ?></td>
                     </tr>
@@ -62,7 +62,7 @@
 ?>
                     <tr>
                         <th scope="row" class="text-white">5</th>
-                        <td class="text-white"> <img src="img/perfil/<?php echo $arr['foto'];?>.jpg" alt="fotoPerfil" class="rounded float-end" style="width: 5vw;"> </td>
+                        <td class="text-white"> <img src="img/perfil/<?php echo $arr['foto'];?>" alt="fotoPerfil" class="rounded float-end" style="width: 5vw;"> </td>
                         <td class="text-white"> <?php echo $arr['nick'] ?> </td>
                         <td class="text-white"><?php echo $arr['puntuacion'] ?></td>
                     </tr>

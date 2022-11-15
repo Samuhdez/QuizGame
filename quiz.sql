@@ -37,70 +37,72 @@ CREATE TABLE puntuaciones (
     PRIMARY KEY (id)
 );
 
-insert into preguntas values(1, '¿Cómo se llama el capitán de la legión de reconocimiento?', 2, "img_ruta");
+insert into preguntas values(1, '¿Cómo se llama el capitán de la legión de reconocimiento?', 2);
 insert into respuestas values(1, 'Pixix', 1);
 insert into respuestas values(2, 'Erwin', 1);
 insert into respuestas values(3, 'Armin', 1);
 insert into respuestas values(4, 'Zeke', 1);
 
-insert into preguntas values(2, '¿Cuántos yonkou/emperadores hay en One Piece?', 7, "img_ruta");
+insert into preguntas values(2, '¿Cuántos yonkou/emperadores hay en One Piece?', 7);
 insert into respuestas values(5, '1', 2);
 insert into respuestas values(6, '2', 2);
 insert into respuestas values(7, '4', 2);
 insert into respuestas values(8, '7', 2);
 
-insert into preguntas values(3, '¿A que villa pertenece Jiraya?', 12, "img_ruta");
+insert into preguntas values(3, '¿A que villa pertenece Jiraya?', 12);
 insert into respuestas values(9, 'Fuego', 3);
 insert into respuestas values(10, 'Lluvia', 3);
 insert into respuestas values(11, 'Aire', 3);
 insert into respuestas values(12, 'Hoja', 3);
 
-insert into preguntas values(4, '¿Cómo se llama el capitán de la legión de reconocimiento?', 14, "img_ruta");
+insert into preguntas values(4, '¿Cómo se llama el capitán de la legión de reconocimiento?', 14);
 insert into respuestas values(13, 'Pixix', 4);
 insert into respuestas values(14, 'Erwin', 4);
 insert into respuestas values(15, 'Armin', 4);
 insert into respuestas values(16, 'Zeke', 4);
 
-insert into preguntas values(5, '¿Cómo se llama el capitán de la legión de reconocimiento?', 18, "img_ruta");
+insert into preguntas values(5, '¿Cómo se llama el capitán de la legión de reconocimiento?', 18);
 insert into respuestas values(17, 'Pixix', 5);
 insert into respuestas values(18, 'Erwin', 5);
 insert into respuestas values(19, 'Armin', 5);
 insert into respuestas values(20, 'Zeke', 5);
 
-insert into preguntas values(6, '¿Cómo se llama el capitán de la legión de reconocimiento?', 22, "img_ruta");
+insert into preguntas values(6, '¿Cómo se llama el capitán de la legión de reconocimiento?', 22);
 insert into respuestas values(21, 'Pixix', 6);
 insert into respuestas values(22, 'Erwin', 6);
 insert into respuestas values(23, 'Armin', 6);
 insert into respuestas values(24, 'Zeke', 6);
 
-insert into preguntas values(7, '¿Cómo se llama el capitán de la legión de reconocimiento?', 26, "img_ruta");
+insert into preguntas values(7, '¿Cómo se llama el capitán de la legión de reconocimiento?', 26);
 insert into respuestas values(25, 'Pixix', 7);
 insert into respuestas values(26, 'Erwin', 7);
 insert into respuestas values(27, 'Armin', 7);
 insert into respuestas values(28, 'Zeke', 7);
 
-insert into preguntas values(8, '¿Cómo se llama el capitán de la legión de reconocimiento?', 30, "img_ruta");
+insert into preguntas values(8, '¿Cómo se llama el capitán de la legión de reconocimiento?', 30);
 insert into respuestas values(29, 'Pixix', 8);
 insert into respuestas values(30, 'Erwin', 8);
 insert into respuestas values(31, 'Armin', 8);
 insert into respuestas values(32, 'Zeke', 8);
 
-insert into preguntas values(9, '¿Cómo se llama el capitán de la legión de reconocimiento?', 34, "img_ruta");
+insert into preguntas values(9, '¿Cómo se llama el capitán de la legión de reconocimiento?', 34);
 insert into respuestas values(33, 'Pixix', 9);
 insert into respuestas values(34, 'Erwin', 9);
 insert into respuestas values(35, 'Armin', 9);
 insert into respuestas values(36, 'Zeke', 9);
 
-insert into preguntas values(10, '¿Cómo se llama el capitán de la legión de reconocimiento?', 38, "img_ruta");
+insert into preguntas values(10, '¿Cómo se llama el capitán de la legión de reconocimiento?', 38);
 insert into respuestas values(37, 'Pixix', 10);
 insert into respuestas values(38, 'Erwin', 10);
 insert into respuestas values(39, 'Armin', 10);
 insert into respuestas values(40, 'Zeke', 10);
 
+insert into users values(1, 'user_a', "a@gmail.com", " ", "a", "1.jpg");
+insert into users values(2, 'user_b', "a@gmail.com", " ", "b", "1.jpg");
 
 
-insert into puntuaciones values(1, 'user_a', 1);
-insert into puntuaciones values(2, 'user_b', 3);
-insert into puntuaciones values(3, 'user_c', 5);
-insert into puntuaciones values(4, 'user_d', 4);
-insert into puntuaciones values(5, 'user_e', 2);
+insert into puntuaciones values(1, 'a', 1);
+insert into puntuaciones values(2, 'a', 3);
+insert into puntuaciones values(3, 'b', 5);
+insert into puntuaciones values(4, 'a', 4);
+insert into puntuaciones values(5, 'b', 2);
