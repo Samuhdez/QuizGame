@@ -20,7 +20,7 @@ if (isset($_POST["log"]) === true) {
     }else{
         //guardamos el email en las sesiones 
         $_SESSION['email']  = $row['email'];          
-        header("Location: http://localhost/quizPrueba/inicio.php");
+        header("Location: inicio.php");
     }
 }
 
@@ -59,15 +59,15 @@ if (isset($_POST["Confirmar"]) === true) {
                     $_SESSION['nPregunta']  = 1;
                     $_SESSION['puntuacion']  = 0;
                     // echo "<script>console.log('5*');</script>";
-                    header("Location: http://localhost/quizPrueba/inicio.php");                    
+                    header("Location: inicio.php");                    
                 }else{
                     // echo "<script>console.log('4*');</script>";
-                    header("Location:  http://localhost/quizPrueba/loginQuiz.html");
+                    header("Location:  loginQuiz.html");
                 }
             }
         }else{
             // echo "<script>console.log('6*');</script>";
-            header("Location:  http://localhost/quizPrueba/loginQuiz.html");
+            header("Location:  loginQuiz.html");
         }
 }
 $con->close();

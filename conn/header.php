@@ -16,7 +16,7 @@ if(isset($_SESSION['email'])) {
             echo "<script>console.log('$userFotoLink');</script>";
 }
 else {
-    header("Location: http://localhost/quizPrueba/login.php");
+    header("Location: ./loginQuiz.html");
 }
 
 ?>
@@ -33,17 +33,17 @@ else {
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-    <a class="navbar-brand text-white" href="http://localhost/quizPrueba/inicio.php">Inicio</a>
+    <a class="navbar-brand text-white" href="inicio.php">Inicio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link text-white" href="http://localhost/quizPrueba/home.php">Quiz <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-white" href="home.php">Quiz <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="http://localhost/quizPrueba/puntuaciones.php"> Top Puntuaciones</a>
+                <a class="nav-link text-white" href="puntuaciones.php"> Top Puntuaciones</a>
             </li>      
         </ul>
         <img src="img/perfil/<?php echo $userFotoLink;?>" alt="fotoPerfil" class="rounded float-end" style="width: 5vw;">

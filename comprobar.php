@@ -39,9 +39,9 @@ include("conn/header.php");
 			$_SESSION['cat'] = 4;
 		}
 
-		header("Location: http://localhost/quizPrueba/resultado.php");
+		header("Location: resultado.php");
 	}else{
-		header("Location: http://localhost/quizPrueba/home.php");
+		header("Location: home.php");
 	}
 ?>
    </body>

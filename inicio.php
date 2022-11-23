@@ -9,9 +9,9 @@
         <div class="container">
             <br><br>
             <h1 class="text-center">  Quiz Game </h1><br>
-            <a href="http://localhost/quizPrueba/home.php" alt="quiz"><img id="qz" src="img/quiz.jpg" alt="quiz" ></a>
+            <a href="home.php" alt="quiz"><img id="qz" src="img/quiz.jpg" alt="quiz" ></a>
             
-            <a href="http://localhost/quizPrueba/home.php">Quiz</a>
+            <a href="home.php">Quiz</a>
             <footer>
                 <div><a href="puntuaciones.php">Puntuaciones</a><a href="logout.php">Cerrar Sesion</a></div>
                 <h5 class="text-center"> &copy2022  quiz</h5> 

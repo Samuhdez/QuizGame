@@ -3,7 +3,7 @@ include("conn/header.php");
 
 session_destroy();
 $con->close();
-header("Location: http://localhost/quizPrueba/loginQuiz.html");
+header("Location: loginQuiz.html");
 
 ?>    
     
